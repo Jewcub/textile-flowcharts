@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-19T04:44:42.673Z" agent="5.0 (Macintosh)" etag="XldaCCl8CJAYo2Ub3Rfl" version="13.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-19T04:46:38.621Z" agent="5.0 (Macintosh)" etag="_n1qEqFu06DV3GSXdQty" version="13.4.5" type="github">
   <diagram id="RX6UZPpf96-W6T8WSHyz" name="Page-1">
     <mxGraphModel dx="1775" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F2F2F2" math="0" shadow="0">
       <root>
@@ -192,6 +192,9 @@
         </mxCell>
         <mxCell id="cNQVmxcZQS4HhnxyCYWw-2" value="&lt;p style=&quot;line-height: 150%&quot;&gt;Threads can be pinned (uploaded, and continuously served) on the IPFS in several locations for robustness. Also, two users with shared acces, or one user on different devices can sync changes to the same Thread. ThreadDB Daemons can handle these syncs, and can even communicate P2P without a wider internet connection&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;fillColor=#6a00ff;strokeWidth=3;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
           <mxGeometry x="272" y="159" width="384" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cNQVmxcZQS4HhnxyCYWw-3" value="&lt;p style=&quot;line-height: 150%&quot;&gt;The Hub Client is a lightweight client that can relay changes to a ThreadDB, but does not store or interact with a local ThreadDB&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;spacingLeft=10;spacingRight=10;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="354" y="630" width="261.5" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
