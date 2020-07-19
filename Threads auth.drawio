@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-19T04:46:38.621Z" agent="5.0 (Macintosh)" etag="_n1qEqFu06DV3GSXdQty" version="13.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-19T08:48:18.552Z" agent="5.0 (Macintosh)" etag="24Jbj77i6_DiwcAVH60T" version="13.4.6" type="github">
   <diagram id="RX6UZPpf96-W6T8WSHyz" name="Page-1">
-    <mxGraphModel dx="1775" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F2F2F2" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F2F2F2" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,14 +187,49 @@
             <mxPoint x="390" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cNQVmxcZQS4HhnxyCYWw-1" value="&lt;p style=&quot;line-height: 150%&quot;&gt;ThreadDB is a database built on IPFS. It is an open protocol, that can be used by anyone, without going through Textile servers. It has a built authentication method that only let&#39;s users with permission access a Thread (database). Threads are registered with a public key. To unlock the thread, you must prove you own the private key associated with that public key by answering a &#39;challenge&#39;.&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;spacingLeft=10;spacingRight=10;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="cNQVmxcZQS4HhnxyCYWw-1" value="&lt;p style=&quot;line-height: 150%&quot;&gt;ThreadDB is a database built on IPFS. It is an open protocol, that can be used by anyone, without going through Textile servers. It has a built authentication method that only let&#39;s users with permission access a Thread (database). Threads are registered with a public key. To unlock the thread, you must prove you own the private key associated with that public key by answering a &#39;challenge&#39;.&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;spacingLeft=10;spacingRight=10;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-390" y="560" width="350" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="cNQVmxcZQS4HhnxyCYWw-2" value="&lt;p style=&quot;line-height: 150%&quot;&gt;Threads can be pinned (uploaded, and continuously served) on the IPFS in several locations for robustness. Also, two users with shared acces, or one user on different devices can sync changes to the same Thread. ThreadDB Daemons can handle these syncs, and can even communicate P2P without a wider internet connection&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;fillColor=#6a00ff;strokeWidth=3;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+        <mxCell id="cNQVmxcZQS4HhnxyCYWw-2" value="&lt;p style=&quot;line-height: 150%&quot;&gt;Threads can be pinned (uploaded, and continuously served) on the IPFS in several locations for robustness. Also, two users with shared acces, or one user on different devices can sync changes to the same Thread. ThreadDB Daemons can handle these syncs, and can even communicate P2P without a wider internet connection&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;fillColor=#6a00ff;strokeWidth=3;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
           <mxGeometry x="272" y="159" width="384" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="cNQVmxcZQS4HhnxyCYWw-3" value="&lt;p style=&quot;line-height: 150%&quot;&gt;The Hub Client is a lightweight client that can relay changes to a ThreadDB, but does not store or interact with a local ThreadDB&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;spacingLeft=10;spacingRight=10;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="cNQVmxcZQS4HhnxyCYWw-3" value="&lt;p style=&quot;line-height: 150%&quot;&gt;The Hub Client is a lightweight client that can relay changes to a ThreadDB, but does not store or interact with a local ThreadDB&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;spacingLeft=10;spacingRight=10;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="354" y="630" width="261.5" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-2" value="&lt;div&gt;Unlock access with key challenge&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rotation=-1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="574" y="1238" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;exitX=0.997;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UKQBPoLMub0h7d_fiWwn-6" target="UKQBPoLMub0h7d_fiWwn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="1288.0187503097316" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="542" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-6" value="&lt;div&gt;Local ThreadDB Database&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1233" width="67.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-7" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;elbow=vertical;strokeColor=none;" edge="1" parent="1" target="UKQBPoLMub0h7d_fiWwn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="1118" />
+            </Array>
+            <mxPoint x="474" y="1258" as="sourcePoint" />
+            <mxPoint x="294" y="1148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-8" value="&lt;p style=&quot;line-height: 150%&quot;&gt;Threads can be pinned (uploaded, and continuously served) on the IPFS in several locations for robustness. Also, two users with shared acces, or one user on different devices can sync changes to the same Thread. ThreadDB Daemons can handle these syncs, and can even communicate P2P without a wider internet connection&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;spacingTop=-10;strokeColor=#3700CC;fontColor=#ffffff;spacingBottom=0;spacing=0;fillColor=#6a00ff;strokeWidth=3;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="186" y="1017" width="384" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/octicons/1024/browser-128.png" vertex="1" parent="1">
+          <mxGeometry x="419.68" y="1359" width="74" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-10" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_standalone;fillColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="503.68" y="1369" width="32.14" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UKQBPoLMub0h7d_fiWwn-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-mix/200/Technology_Mix_-_Final-29-128.png;fillColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="612" y="1363" width="75" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
